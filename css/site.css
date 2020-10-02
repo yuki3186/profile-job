@@ -1,0 +1,133 @@
+body{
+	background-color: #ddeeff;
+}
+
+p {
+	margin: 0 0 10px;
+}
+
+h1, h3{
+	color: #222222;
+}
+
+.header-contents {
+	margin-top: 10px;
+	color: #fff;
+}
+
+.header-title {
+	font-size: 30px;
+   /*text-align: center;*/
+    display: inline-block;
+    width: 100%;
+    padding-left:180px;
+}
+
+.header-title2{
+	font-size: 30px;
+    display: inline-block;
+    width: 100%;
+    padding-left:200px;
+}
+
+.header-title-sp {
+	font-size: 25px;
+	text-align: center;
+	display: inline-block;
+    width: 100%;
+}
+
+.header-subtext {
+	float: right;
+	padding-top: 30px;
+}
+
+.navbar-fixed {
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 100px;
+	position: fixed;
+	z-index: 201; /* bigger than timeline z-index 200 */
+}
+
+.top-button, .top-button-sp {
+	width: 80%;
+	/*margin: 50px 300px 10px 10px;*/
+	margin:10px;
+	
+	
+}
+
+.top-button{
+	font-size: 20px;
+}
+
+.thumbnail:hover{
+	box-shadow: 0 6px 4px rgba(0,0,0,.2);
+}
+
+.top-image{
+	height: 340px;
+	background: url('../images/tekapo.JPG') center center no-repeat;
+	padding-top: 40px;
+	margin-top: 70px;
+	position: fixed;
+left:0;
+	right: 0;
+	opacity: 0.65
+}
+
+.top-contents {
+	padding-top: 110px;
+	margin-right:280px;
+}
+
+.top-circle-image{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 280px;
+	width: 280px;
+	border-radius: 150px;
+}
+
+.thumbnail>a>img, .thumbnail>img{
+	margin-top: 10px;
+	width: 150px;
+	height: 150px;
+	border-radius: 27px;
+}
+
+.events-body {
+	font-size: 17px;
+}
+
+.time {
+	font-size: 15px;
+}
+
+.btn-github {
+	background-color: #999999;
+}
+
+.btn-github:hover {
+	background-color: #888888;
+}
+
+.btn-twitter {
+	background-color: #55acee;
+}
+
+.btn-twitter:hover {
+	background-color: #33acee;
+}
+
+
+.timeline dl dd .circ {
+	background-color: #37bc9b;
+}
+
+.timeline dl dd .time {
+	color: #000000;
+}
